@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const pathnameParts = window.location.pathname.split('/');
+    const lastPart = pathnameParts[pathnameParts.length - 1];
+    if (lastPart !== '' && !lastPart.includes('.')) {
+      window.location.replace('/BirthdayWish/');
+    }
+  </script>
+</head>
+<body></body>
+</html>
